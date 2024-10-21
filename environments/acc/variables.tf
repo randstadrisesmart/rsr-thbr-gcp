@@ -13,10 +13,4 @@
 # limitations under the License.
 
 
-locals {
-  env = "prd"
-}
-
-provider "google" {
-  project = "${var.project}"
-}
+variable "project" {}

@@ -13,10 +13,6 @@
 # limitations under the License.
 
 
-locals {
-  env = "prd"
-}
-
-provider "google" {
-  project = "${var.project}"
+terraform {
+  required_version = "~> 1.0.0"
 }

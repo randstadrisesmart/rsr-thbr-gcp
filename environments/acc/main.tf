@@ -14,7 +14,7 @@
 
 
 locals {
-  env = "prd"
+  env = "acc"
 }
 
 provider "google" {
